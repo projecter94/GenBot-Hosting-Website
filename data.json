@@ -1,0 +1,33 @@
+{
+  "users": {
+    "admin": "scrypt:32768:8:1$Y3Us6Veo4aUpEiwp$45b54e2e09e22f5c6c4c862ebbfc506ec919dadd92c2ceee654cf2f06f4d845fd73e46d8629c560d1c47f0c94453c22776cf3213b7156efec71a24ed304fdd1e",
+    "hi": "scrypt:32768:8:1$GZZFjYrUTPLkvoTG$6b0e5f5d36d40a5d44d73710e32745e9dd618d2acb471ed433fa36bf24e48dfce504e7f38602c19a14e65f5c7ec2be1882b7743797b9bdad7659e72906498802",
+    "okay": "scrypt:32768:8:1$z9NdmG7qS6bZ00Lx$d9ce13db41721246891c840ad53a4410d9bbb6d2bb6175f7aea7364750f4b81780f685bb9627cda674178f0a212594fed64f04de56428967ba640a3c347dac66"
+  },
+  "servers": {
+    "04be26ceacad": {
+      "owner": "hi",
+      "name": "ergu924pw",
+      "type": "flask",
+      "port": null,
+      "path": "C:\\Users\\jerda\\OneDrive\\Desktop\\test\\users\\hi\\servers\\ergu924pw",
+      "status": "stopped"
+    },
+    "2ca3a8b35d51": {
+      "owner": "okay",
+      "name": "wegfwefweffwef",
+      "type": "nodejs-generic",
+      "port": null,
+      "path": "C:\\Users\\jerda\\OneDrive\\Desktop\\test\\users\\okay\\servers\\wegfwefweffwef",
+      "status": "stopped"
+    },
+    "e99f8416bd64": {
+      "owner": "admin",
+      "name": "okay",
+      "type": "nodejs-generic",
+      "port": null,
+      "path": "C:\\Users\\jerda\\OneDrive\\Desktop\\test\\users\\admin\\servers\\okay",
+      "status": "stopped"
+    }
+  }
+}
