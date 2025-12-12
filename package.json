@@ -1,0 +1,18 @@
+{
+    "name": "text-to-raw-file",
+    "version": "1.0.0",
+    "description": "A website to convert text with titles to raw files like GitHub",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "keywords": [
+        "text",
+        "raw",
+        "file",
+        "converter"
+    ],
+    "author": "",
+    "license": "MIT"
+}
