@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raw File Viewer</title>
+    <link rel="stylesheet" href="raw-styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1 id="fileTitle">Loading...</h1>
+                <p class="file-info">
+                    <span id="fileId" class="file-id"></span>
+                    <span id="fileTime" class="file-time"></span>
+                </p>
+            </div>
+            <div class="header-actions">
+                <button id="downloadBtn" class="btn btn-download">⬇ Download</button>
+                <button id="copyBtn" class="btn btn-copy">📋 Copy All</button>
+                <a href="index.html" class="btn btn-back">← Back to Editor</a>
+            </div>
+        </header>
+
+        <div class="content-area">
+            <pre id="rawContent" class="raw-content">Loading...</pre>
+        </div>
+
+        <footer>
+            <p>This is a raw text file view. Click download to save it to your computer.</p>
+        </footer>
+    </div>
+
+    <script src="raw-script.js"></script>
+</body>
+
+</html>
